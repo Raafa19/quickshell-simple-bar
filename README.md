@@ -16,4 +16,4 @@ Feel free to use for learning, and your own space, but you might want to change 
 
 ### Other notes
 
-My mother lenguage is spanish, so I might use spanish variables, and mix them with english variables (sorry)
+My mother language is spanish, so I might use spanish variables, and mix them with english variables (sorry)
