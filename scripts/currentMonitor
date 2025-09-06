@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+
+CURRENT_CONFIG="$(readlink ~/.config/hypr/hyprMonitor.conf)"
+
+case $CURRENT_CONFIG in
+
+	~/.config/hypr/monitor-config/monitor-only.conf)
+	echo 0
+	;;
+		
+	~/.config/hypr/monitor-config/dual-monitor.conf)
+	echo 1
+	;;
+
+	~/.config/hypr/monitor-config/hdmi-only.conf)
+	echo 2
+	;;
+
+
+	~/.config/hypr/monitor-config/screen-mirror.conf)
+	echo 3
+	;;
+esac
+
