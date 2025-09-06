@@ -8,6 +8,14 @@ Simple bar made with Quickshell
 * Hyprland
 * Date
 
+### MainBar
+<img width="1920" height="90" alt="1757201744_grim" src="https://github.com/user-attachments/assets/ac0d6593-7999-49e2-9236-100f97e0d2de" />
+
+### Dashboard (Second Screen)
+<img width="400" height="207" alt="1757201684_grim" src="https://github.com/user-attachments/assets/bad1effd-d95e-48a9-91c6-579405770520" />
+
+
+
 ## Notes
 
 This bar is mainly made for my personal use, that means, for two screens (Hdmi and laptop screen).
