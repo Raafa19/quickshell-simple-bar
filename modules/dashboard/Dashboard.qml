@@ -9,7 +9,7 @@ Variants {
     id: root
     model: Quickshell.screens
     property var btDevices: Bluetooth.defaultAdapter?.devices?.values
-    property color bgColor: ColorsConfig.palette.current.surface
+    property color bgColor: ColorsConfig.palette.current.bar_background
 
     PanelWindow {
         id: panelDash

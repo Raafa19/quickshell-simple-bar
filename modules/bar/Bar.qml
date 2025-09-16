@@ -25,7 +25,7 @@ Variants {
         implicitHeight: 32
 
         Rectangle {
-            color: ColorsConfig.palette.current.surface
+            color: ColorsConfig.palette.current.bar_background
             anchors.fill: parent
 
             GridLayout { //grid 3 partes iguales

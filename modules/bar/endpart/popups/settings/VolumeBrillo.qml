@@ -45,12 +45,12 @@ Column {
                     width: volumeSlider.width
                     height: volumeSlider.height
                     radius: 25
-                    color: ColorsConfig.palette.current.surface_bright
+                    color: ColorsConfig.palette.current.primary_container
 
                     Rectangle {
                         width: volumeSlider.visualPosition * parent.width
                         height: parent.height
-                        color: ColorsConfig.palette.current.primary
+                        color: ColorsConfig.palette.current.slider
                         radius: 25
                     }
                 }
@@ -58,7 +58,7 @@ Column {
                     height: volumeSlider.height
                     width: 20
                     radius: 25
-                    color: ColorsConfig.palette.current.primary
+                    color: ColorsConfig.palette.current.slider
                 }
                 onMoved: {
                     Audio.setVolume(value / 100);
@@ -106,12 +106,12 @@ Column {
                     width: brilloSlider.width
                     height: brilloSlider.height
                     radius: 25
-                    color: ColorsConfig.palette.current.surface_bright
+                    color: ColorsConfig.palette.current.primary_container
 
                     Rectangle {
                         width: brilloSlider.visualPosition * parent.width
                         height: parent.height
-                        color: ColorsConfig.palette.current.primary
+                        color: ColorsConfig.palette.current.slider
                         radius: 25
                     }
                 }
@@ -119,7 +119,7 @@ Column {
                     height: brilloSlider.height
                     width: 20
                     radius: 25
-                    color: ColorsConfig.palette.current.primary
+                    color: ColorsConfig.palette.current.slider
                 }
 
                 onMoved: {

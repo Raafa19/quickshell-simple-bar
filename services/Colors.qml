@@ -6,39 +6,46 @@ import QtQuick
 Singleton {
     id: root
 
-    readonly property FirstPalette firstPalette: FirstPalette {}
-    readonly property SecondPalette secondPalette: SecondPalette {}
+    readonly property OrangePalette orangePalette: OrangePalette {}
+    readonly property DarkBluePalette darkBluePalette: DarkBluePalette {}
+    readonly property BlackWhitePalette blackWhitePalette: BlackWhitePalette {}
 
-    component FirstPalette: QtObject {
-        property color surface: "#1a120d"
-        property color surface_bright: "#281d15"
-        property color on_surface: "#f0dfd7"
-        property color primary: "#ffb68e"
-        property color on_primary: "#532201"
-        property color secondary: "#e6beab"
-        property color on_secondary: "#432b1d"
-        property color tertiary: "#cdc991"
-        property color on_tertiary: "#343208"
-        property color primary_container: "#6f3714"
-        property color on_primary_container: "#ffdbca"
+    component OrangePalette: QtObject {
+        property color bar_background: "#1a120d"
+        property color primary_container: "#281d15"
         property color secondary_container: "#5c4132"
-        property color onSecondaryContainer: "#ffdbca"
+        property color text: "#f0dfd7"
+        property color slider: "#ffb68e"
+        // Workspaces
+        property color active_ws: "#f0dfd7"
+        property color occupied_ws: "#ffb68e"
+        property color empty_ws: "#432b1d"
     }
 
-    component SecondPalette: QtObject {
-        property color surface: "#1a120d"
-        // property color surface: "#f0caaf"
-        property color surface_bright: "#281d15"
-        property color on_surface: "#f0dfd7"
-        property color primary: "#ffb68e"
-        property color on_primary: "#532201"
-        property color secondary: "#e6beab"
-        property color on_secondary: "#432b1d"
-        property color tertiary: "#cdc991"
-        property color on_tertiary: "#343208"
-        property color primary_container: "#6f3714"
-        property color on_primary_container: "#ffdbca"
-        property color secondary_container: "#5c4132"
-        property color onSecondaryContainer: "#ffdbca"
+    component DarkBluePalette: QtObject {
+        property color bar_background: "#0e1514"
+        property color primary_container: "#102a29"
+        property color secondary_container: "#5f7a79"
+        property color text: "#ffffff"
+        property color slider: "#96ebe9"
+
+        // Workspaces
+        property color active_ws: "#ffffff"
+        property color occupied_ws: '#90a2a1'
+        property color empty_ws: "#274f4e"
+        
+    }
+
+    component BlackWhitePalette: QtObject {
+        property color bar_background: "#ffffff"
+        property color primary_container: "#e6e6e6"
+        property color secondary_container: "#b5b5b5"
+        property color text: "#1b1b1b"
+        property color slider: "#7a7a7a"
+
+        // Workspaces
+        property color active_ws: "#1b1b1b"
+        property color occupied_ws: "#7a7a7a"
+        property color empty_ws: "#c2c2c2"
     }
 }

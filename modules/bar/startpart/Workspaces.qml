@@ -41,7 +41,7 @@ Row {
                 anchors.fill: parent
                 verticalAlignment: Text.AlignVCenter
                 horizontalAlignment: Text.AlignHCenter
-                color: wsContainer.isOnScreen && wsContainer.activeOnscreen ? ColorsConfig.palette.current.on_surface : wsContainer.isOcuppied ? ColorsConfig.palette.current.primary : ColorsConfig.palette.current.on_secondary
+                color: wsContainer.isOnScreen && wsContainer.activeOnscreen ? WsConfig.config.active : wsContainer.isOcuppied ? WsConfig.config.occupied : WsConfig.config.empty
                 font.pixelSize: wsContainer.fontSize
                 fill: wsContainer.isOnScreen && wsContainer.activeOnscreen ? 1 : 0
 

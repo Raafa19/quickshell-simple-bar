@@ -5,5 +5,5 @@ Text {
     verticalAlignment: Text.AlignVCenter
     font.pixelSize: 14
     font.family: FontsConfig.font.ubuntu
-    color: ColorsConfig.palette.current.on_surface
+    color: ColorsConfig.palette.current.text
 }

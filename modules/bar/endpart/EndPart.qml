@@ -13,7 +13,7 @@ Row {
     layoutDirection: Qt.RightToLeft
 
     Rectangle {
-        color: ColorsConfig.palette.current.surface_bright
+        color: ColorsConfig.palette.current.primary_container
         height: parent.height
 
         width: fecha.implicitWidth + 30
@@ -24,7 +24,7 @@ Row {
     }
 
     Rectangle {
-        color: ColorsConfig.palette.current.surface_bright
+        color: ColorsConfig.palette.current.primary_container
         height: parent.height
 
         width: hora.implicitWidth + 30
@@ -35,7 +35,7 @@ Row {
     }
 
     Rectangle {
-        color: ColorsConfig.palette.current.surface_bright
+        color: ColorsConfig.palette.current.primary_container
         height: parent.height
 
         width: bateria.implicitWidth + 30
@@ -49,7 +49,7 @@ Row {
         id: slidersContainer
         property bool settingsIsOpen: false
 
-        color: ColorsConfig.palette.current.surface_bright
+        color: ColorsConfig.palette.current.primary_container
         height: parent.height
 
         width: sliders.implicitWidth + 30

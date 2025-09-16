@@ -7,7 +7,7 @@ Row {
 
     Rectangle {
         id: workspacesBox
-        color: ColorsConfig.palette.current.surface_bright
+        color: ColorsConfig.palette.current.primary_container
         height: parent.height
         width: ws.implicitWidth + 30
         Workspaces {
@@ -19,7 +19,7 @@ Row {
     Rectangle {
         id: systemInfoContainer
         height: parent.height
-        color: ColorsConfig.palette.current.surface_bright
+        color: ColorsConfig.palette.current.primary_container
         width: systemInfo.implicitWidth + 30
 
         SystemInfo {

@@ -8,6 +8,6 @@ Singleton {
     property MyPalette palette: MyPalette {}
 
     component MyPalette: QtObject {
-        property var current: Colors.secondPalette
+        property var current: Colors.darkBluePalette
     }
 }
