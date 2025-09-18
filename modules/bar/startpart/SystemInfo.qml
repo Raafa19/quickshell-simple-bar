@@ -30,7 +30,7 @@ Row {
         fill: 0
     }
     StyledText {
-        width: 60
+        width: 45
         height: parent.height
         bottomPadding: 3
         text: {
@@ -40,6 +40,14 @@ Row {
     }
     Bluetooth {
         id: bt
+        height: parent.height
+    }
+    Item {
+        width: 1
+        height: parent.height
+    }
+    WifiInfo {
+        id: wifi
         height: parent.height
     }
 }

@@ -10,18 +10,13 @@ Row {
 
     property var btDevices: Bluetooth.defaultAdapter?.devices?.values
 
-    MaterialIcon {
-        text: {
+    IconTextRevealer {
+        height: parent.height
+        icon: {
             return btRow.btDevices[0]?.connected ? "Bluetooth" : "Bluetooth_Disabled";
         }
-        height: parent.height
-        fill: 0
-    }
-    ClippingRectangle {
-        height: parent.height
-        color: "transparent"
-        width: Math.min(row.width, 200);
-        MarqueeItem {
+        func: () => {}
+        text: MarqueeItem {
             height: parent.height
             width: row.width
             run: width > parent.width
