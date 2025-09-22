@@ -27,4 +27,29 @@ Row {
             anchors.fill: parent
         }
     }
+
+    Rectangle {
+        id: wifiBtContainer
+        height: parent.height
+        color: ColorsConfig.palette.current.primary_container
+        width: wifiBtRow.implicitWidth + 20
+
+        Row {
+            id: wifiBtRow
+            anchors.fill: parent
+            spacing: 10
+            anchors {
+                leftMargin: 10
+                rightMargin: 10
+            }
+            Bluetooth {
+                id: bt
+                height: parent.height
+            }
+            WifiInfo {
+                id: wifi
+                height: parent.height
+            }
+        }
+    }
 }

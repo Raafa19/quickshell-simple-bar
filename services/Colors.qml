@@ -31,7 +31,7 @@ Singleton {
 
         // Workspaces
         property color active_ws: "#ffffff"
-        property color occupied_ws: '#90a2a1'
+        property color occupied_ws: "#90a2a1"
         property color empty_ws: "#274f4e"
         
     }

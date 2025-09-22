@@ -38,16 +38,4 @@ Row {
             return `${+ram.value.toFixed(1)}${ram.unit}`;
         }
     }
-    Bluetooth {
-        id: bt
-        height: parent.height
-    }
-    Item {
-        width: 1
-        height: parent.height
-    }
-    WifiInfo {
-        id: wifi
-        height: parent.height
-    }
 }
